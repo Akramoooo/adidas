@@ -1,0 +1,24 @@
+.fon-img-container{
+    background: #ffffff url(https://sportishka.com/uploads/posts/2022-11/thumbs/1667675346_27-sportishka-com-p-krasnii-adidas-oboi-29.jpg) center center/cover no-repeat;
+    width: 100%;
+    height: 500px;
+}
+
+.info-in-fon{
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 20px;
+}
+
+.info-in-fon h2{
+    border: 1px solid white;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.info-in-fon h2:hover{
+    color: gray;
+}

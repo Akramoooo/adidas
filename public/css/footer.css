@@ -1,0 +1,22 @@
+.footer-container{
+    height: 100px;
+    padding-top: 20px;
+    background-color: rgb(71, 70, 70);
+}
+
+.footer-info-container{
+    background-color: rgb(71, 70, 70);
+    width: 94%;
+    height: 80%;
+    margin-left: 3%;
+}
+
+.footer-info-container>ul{
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:center;
+    padding-top: 20px;
+    color: white;
+}
