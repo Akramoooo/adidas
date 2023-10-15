@@ -22,3 +22,44 @@
 .info-in-fon h2:hover{
     color: gray;
 }
+
+.steel-interested{
+    margin: 1em;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+/* CARD */
+
+.foot-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1);
+}
+
+.foot-cards>div{
+    margin-inline: 13px;
+}
+
+.one-foot-card{  
+    display: flex;
+    flex-direction: column;
+}
+
+.one-foot-card>img{
+    width: 100%;
+}
+
+.foot-info p{
+    margin: 8px;
+}
+
+
+/* //// */
+
+@media(max-width:880px){
+    .foot-cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
