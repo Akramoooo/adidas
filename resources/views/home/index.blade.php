@@ -25,6 +25,30 @@
         </div>
     </div>
 </div>
+<h1 class="steel-interested">Steel Interested?</h1>
+<div class="foot-cards">
+    <div class="one-foot-card">
+        <img src="{{ asset('/logos/foot.avif')}}" alt="">
+        <div class="foot-info">
+            <p>adidas</p>
+            <p>1200$</p>
+        </div>
+    </div>
+    <div class="one-foot-card">
+        <img src="{{ asset('/logos/foot.avif')}}" alt="">
+        <div class="foot-info">
+            <p>adidas</p>
+            <p>1200$</p>
+        </div>
+    </div>
+    <div class="one-foot-card">
+        <img src="{{ asset('/logos/foot.avif')}}" alt="">
+        <div class="foot-info">
+            <p>adidas</p>
+            <p>1200$</p>
+        </div>
+    </div>
+</div>
 
 @endsection
 
