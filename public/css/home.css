@@ -33,7 +33,7 @@
 
 .foot-cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(1);
 }
 
@@ -56,6 +56,77 @@
 
 
 /* //// */
+
+/* Additional  */
+.additional{
+    margin-top: 3rem;
+    margin-bottom: 20px;
+    margin-right: 0;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.add-two-btn>button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.first-add-btn{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.second-add-btn{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.second-add-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.add-one-btn>a{
+    color: black;
+    font-weight: 600;
+}
+/* ///// */
+
+/* PRODUCT CARDS */
+
+.product-cards{
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product-cards>div{
+    margin-inline: 8px;
+}
+
+.one-product-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.one-product-card>img{
+    width: 100%;
+}
+
+.one-product-card>p{
+    margin: 5px;
+    margin-left: 0;
+}
+
+/* ///// */
 
 @media(max-width:880px){
     .foot-cards{
