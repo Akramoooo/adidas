@@ -92,6 +92,35 @@
     </div>
 </div>
 
+<div class="four-card-images">
+    <div class="image-container">
+        <img src="{{ asset('/logos/image1.avif') }}" alt="">
+        <h5>Title</h5>
+        <p>description</p>
+        <h4>SHOP NOW</h4>
+    </div>
+    <div class="image-container">
+        <img src="{{ asset('/logos/image2.avif') }}" alt="">
+        <h5>Title</h5>
+        <p>description</p>
+        <h4>SHOP NOW</h4>
+    </div>
+    <div class="image-container">
+        <img src="{{ asset('/logos/image3.avif') }}" alt="">
+        <h5>Title</h5>
+        <p>descrption</p>
+        <h4>SHOP NOW</h4>
+    </div>
+    <div class="image-container">
+        <img src="{{ asset('/logos/image4.avif') }}" alt="">
+        <h5>Title</h5>
+        <p>description</p>
+        <h4>SHOP NOW</h4>
+    </div>
+</div>
+
+<h1 style="width: 90%; margin-left: 5%; margin-top: 10px;">Popular right now</h1>
+
 @endsection
 
 

@@ -126,11 +126,46 @@
     margin-left: 0;
 }
 
+/* CARD IMAGES */
+
+.four-card-images{
+    width: 90%;
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+}
+
+.image-container h5,h4,p{
+    margin: 8px;
+    margin-inline: 0;
+}
+
+.image-container h4{
+    border-bottom:  0.5px solid black;
+}
+
+.image-container>img{
+    width: 100%;
+}
 /* ///// */
 
 @media(max-width:880px){
     .foot-cards{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .four-card-images{
+        grid-template-columns: repeat(2,1fr);
     }
 }
